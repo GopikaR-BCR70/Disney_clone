@@ -1,0 +1,246 @@
+/* Reset default styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+ }
+
+.container{
+    background-color: #fff;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.header-logo {
+    padding-top: 10px;
+}
+.nav-menu {
+    display: flex;
+    vertical-align: top;
+    margin: 30px;
+  }
+.nav-menu a{
+    color: #010000;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-family: Arial,sans-serif;
+}
+/* Slider Section */
+.slider{
+  display: grid;
+  margin-top: 0px;
+  position: relative;
+  width: 50%;
+}
+.slide-track{
+  display: flex;
+}
+.slide img{
+  height: 710px;
+  display: flex;
+  align-items: center;
+}
+
+/* promo-main */
+.promo-row {
+    display: flex; /* Arrange items horizontally */
+    gap: 15px; /* adds spacing between items */
+  }
+  
+  .promo-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Product Image */
+  .promo-card img {
+    height: 440px;
+  }
+  
+  /* Product text */
+  .promo-text1 h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1100px;
+    left:100px
+  }
+  .promo-text2 h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1100px;
+    left:480px
+  }
+  .promo-text3 h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1100px;
+    left:850px;
+  }
+  .promo-text4 h3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1100px;
+    left:1220px;
+  }
+  
+  .promo-info button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+.shopnow a{
+  text-decoration: none;  
+}
+
+  /* featured Ads Section  */
+  .featured_main{
+    margin-top: 20px;
+    background-color: #ececec;
+}
+
+.featured-heading p{
+  margin: 50px;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 30px;
+}
+.featured-row{
+    display: flex; /* Arrange items horizontally */
+    gap: 0px;
+  }
+
+.featured-card1 img{
+  margin-left: 60px;
+  height: 300px;
+  padding-left: 0;
+}
+.featured-card2 img{
+  height: 300px;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+.ads_text p{
+  font-family: sans-serif;
+  font-size: large;
+  color: #353434;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+.ads_text2{
+  font-family: sans-serif;
+  color: #353434;
+  padding-left: 60px;
+}
+/* holiday section  */
+
+.holiday-card1 img{
+  margin-top: 50px;
+  height:100%;
+  margin-left: -258px;
+}
+.holiday-card2 img{
+  height:100%;
+  margin-top: 50px;
+  margin-left: -295px;
+}
+.holiday-card3 img{
+  height:100%;
+  margin-top: 50px;
+  margin-left: -145px;
+  margin-right: 200px;;
+}
+.holiday-row{
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-between; /* arrange items with space between them */
+    padding: 20px;
+    gap: 15px;
+}
+.more_from_disney-row{
+  display: flex; /* Arrange items horizontally */
+  justify-content: space-between; /* arrange items with space between them */
+  padding: 20px;
+  gap: 15px;
+}
+/* More from disney section  */
+.ted-title p{
+  padding-top: 220px;
+  padding-left: 80px;
+  font-size: 160%;
+}
+.more_card1 img{
+ padding-left: 60px;
+ padding-top: 10px;
+ width: 670px;
+}
+.disney-title p{
+  padding-top: 350px;;
+}
+.more_card2 img{
+  height:354px;
+  width: 470px;
+   
+ }
+/* footer section  */
+footer{
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footerlogo{
+  margin-top: 10%;
+  width: 150px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.footer-nav a
+{
+  color: #010000;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+/* social icons */
+.social-icons img{
+  width: 20px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+/* footer links */
+.footer-links{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.footer-links a{
+  color: #555;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.footer-links a:hover{
+  text-decoration: underline;
+}
+/* copyright section  */
+.copyright{
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
